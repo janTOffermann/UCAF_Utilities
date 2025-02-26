@@ -1,0 +1,4 @@
+#!/bin/bash 
+ACOLOR=96 
+# Restore the old PS1 if a release was currently set up. 
+export PS1=${DEFAULT_PS1}

@@ -1,0 +1,6 @@
+#!/bin/bash 
+ACOLOR=96 
+# If an atlas version has been setup, do this. 
+if [[ ! -z ${AtlasVersion} ]]; then 
+       export PS1="\[\033[${ACOLOR}m\][${AtlasVersion}, ${AtlasProject}]\[\033[0m\] $PS1" 
+fi
